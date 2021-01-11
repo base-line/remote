@@ -76,3 +76,11 @@ Do you want to copy existing state to the new backend?
 
   Enter a value:
 ```
+
+## Destroy
+
+destroy created infrastructure if need be
+
+```
+terraform destroy
+```
