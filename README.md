@@ -42,6 +42,15 @@ terraform {
 }
 ```
 
+Create an account in [Terraform Cloud](https://app.terraform.io/).
+
+- create an [organization](https://www.terraform.io/docs/cloud/users-teams-organizations/organizations.html) in your Terraform Cloud 
+- [setup](https://www.terraform.io/docs/cloud/vcs/github-app.html) your VCS integration
+
+Create an workspaces linked back to your github repository
+
+![workspaces dev/qa/prod](img/create_workspace.png "Create workspace in Terraform Cloud")
+
 on `terraform apply` and get
 
 ```bash
