@@ -1,5 +1,5 @@
 # remote
-Terraform with remote backend example
+This is an example how to migrate your local state to remote backend - Terraform Cloud
 
 ## Pre-requirements
 - [git](https://git-scm.com/downloads) need to be installed 
@@ -15,6 +15,8 @@ terraform apply
 ```
 
 # Initially
+
+this is initial code in `main.tf`
 
 ```bash
 resource "null_resource" "helloWorld" {
